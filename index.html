@@ -1,92 +1,164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="I am an entrepreneur who is experienced in technology and artificial intelligence at scale. I am currently building at Hebbia, the generational AGI startup seeking to transform knowledge work. Prior to co-founding a quantitative hedge fund which was acquired in 2021, I worked as a software engineer and as a data scientist with experience in machine learning. My quantitative neuroscience research has been featured in reputed publications and presented to the director of DARPA, among other industry leaders. At my core, I am fascinated by the intersection of art, science, and technology. I believe the best products are those which are both functional and beautiful, and I hope to change the world with such creations of my own."
+    />
 
-	<head>
-		<!-- Meta Tags -->
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport"
-			content="width=device-width,initial-scale=1,maximum-scale=1" />
-		<meta name="description"
-			content="I am an entrepreneur who is experienced in technology and artificial intelligence at scale. I am currently building at Hebbia, the generational AGI startup seeking to transform knowledge work. Prior to co-founding a quantitative hedge fund which was acquired in 2021, I worked as a software engineer and as a data scientist with experience in machine learning. My quantitative neuroscience research has been featured in reputed publications and presented to the director of DARPA, among other industry leaders. At my core, I am fascinated by the intersection of art, science, and technology. I believe the best products are those which are both functional and beautiful, and I hope to change the world with such creations of my own.">
+    <!-- Required OGP Tags -->
+    <meta property="og:title" content="50th & 2nd" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.50thand2nd.com/" />
+    <meta property="og:image" content="./favicon.png" />
 
-		<!-- Required OGP Tags -->
-		<meta property="og:title" content="50th & 2nd" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://www.50thand2nd.com/" />
-		<meta property="og:image" content="./favicon.png" />
+    <!-- Title and Favicon -->
+    <title>50th & 2nd</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 
-		<!-- Title and Favicon -->
-		<title>50th & 2nd</title>
-		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+      integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./static/css/index.css" />
 
-		<!-- CSS -->
-		<link rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-		<link rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
-			integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-			crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="./static/css/index.css" />
+    <!-- Fonts and Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700,800"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Domine:100,300,500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-		<!-- Fonts and Icons -->
-		<link rel="stylesheet"
-			href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-			crossorigin="anonymous">
-		<link rel="stylesheet"
-			href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700,800"
-			type="text/css" />
-		<link href="https://fonts.googleapis.com/css?family=Domine:100,300,500,700"
-			rel="stylesheet">
-		<link
-			href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
-			rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"
+    />
 
-		<link rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-125851821-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async
-			src="https://www.googletagmanager.com/gtag/js?id=UA-125851821-1"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
+      gtag("config", "UA-125851821-1");
+    </script>
+  </head>
 
-		gtag('config', 'UA-125851821-1');
-	</script>
-	</head>
+  <body>
+    <main style="margin: 20px !important">
+      <div
+        class="portfolio"
+        style="
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <a
+          href="./hosting/TermsOfService.html"
+          class="grey-text nomargin roboto-light"
+          style="font-size: 14px; cursor: pointer; text-transform: uppercase"
+        >
+          Terms of Service
+        </a>
+        <p
+          class="black-text nomargin tangerine-regular hide-on-small-only"
+          onclick="window.location.reload()"
+          style="font-size: 38px; cursor: pointer"
+        >
+          50th & 2nd
+        </p>
+        <a
+          href="./hosting/PrivacyPolicy.html"
+          class="grey-text nomargin roboto-light"
+          style="font-size: 14px; cursor: pointer; text-transform: uppercase"
+        >
+          Privacy Policy
+        </a>
+      </div>
+      <div
+        class="portfolio show-on-small-only hide-on-med-and-up"
+        style="
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <p
+          class="black-text tangerine-regular"
+          onclick="window.location.reload()"
+          style="font-size: 38px; cursor: pointer; margin-top: 100px"
+        >
+          50th & 2nd
+        </p>
+      </div>
+    </main>
 
-	<body>
-		<main style="margin: 20px !important">
-			<div class="portfolio"
-				style="width: 100%; display: flex; justify-content: center;">
-				<p class="black-text nomargin tangerine-regular"
-					onclick="window.location.reload()"
-					style="font-size: 38px; cursor: pointer;">50th & 2nd</p>
-			</div>
-		</main>
+    <footer style="position: fixed; bottom: 0; width: 100%; text-align: center">
+      <p
+        class="grey-text roboto-light"
+        style="
+          font-size: 14px;
+          margin: 0;
+          padding: 10px 0;
+          text-transform: uppercase;
+        "
+      >
+        &copy; 2024 50th & 2nd
+      </p>
+    </footer>
 
-		<!-- JS -->
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-		<script src="static/js/content.js"></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
-		<script>
-		$(document).ready(function () {
-			$('.materialboxed').materialbox();
-			$('.modal').modal();
-		});
-	</script>
-	</body>
-
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="static/js/content.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".materialboxed").materialbox();
+        $(".modal").modal();
+      });
+    </script>
+  </body>
 </html>
